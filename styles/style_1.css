@@ -137,6 +137,7 @@
 
   #fluister{
     font-family: "Nanum Pen Script", sans-serif;
+    opacity: 80%;
   }
 
 /*maakt het canvas + de afbeelding anders.*/ 
@@ -151,4 +152,6 @@
   
    a {
     color: aqua;
+    text-decoration-line: none;
    }
+  
