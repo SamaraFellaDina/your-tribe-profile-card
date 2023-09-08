@@ -68,6 +68,13 @@
     letter-spacing: 1px;
     padding-right: 2em;
     padding-left: 2em;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 
   }
 
@@ -104,13 +111,32 @@
     margin-block-start: 0em;
     margin-block-end: 1em;
     font-weight: bold;
-    padding-top: 1em;
-    color: rgb(230, 243, 184);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 1em;
+    padding-bottom: 0.25em;
+    color: rgb(41, 76, 39);
+    background:rgb(230, 243, 184);
     letter-spacing: 0.05em;
     rotate: 357deg;  
     text-align: left;
     margin-left: 1em;
+    font-weight: 800;
 
+  }
+
+  p{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(230, 243, 184);
+  }
+
+  #fluister{
+    font-family: "Nanum Pen Script", sans-serif;
   }
 
 /*maakt het canvas + de afbeelding anders.*/ 
@@ -123,4 +149,6 @@
     rotate: 358deg;
   }
   
-   
+   a {
+    color: aqua;
+   }
