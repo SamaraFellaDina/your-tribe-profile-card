@@ -2,25 +2,24 @@
   /*Geeft een basisstijl met alles met de waarde 'body'*/
    body {
     display: flex;
-    justify-content: center;
+    justify-content: center; /*zorgt ervoor dat de body gecentreerd staat op de pagina*/
     align-items: center;
     height: 100vh;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif; 
     color: #000000;
-    rotate: 2deg;
-    margin: 10em;
+    rotate: 2deg; /*zorgt dat het kaartje een 2 graden draait*/
+    margin: 10em; /*zorgt dat er een border zit in de pagina. Hij heeft dus onzichtbare randen waar de content in blijft*/
     padding-bottom: 2em;
     background-image: url(https://images.unsplash.com/photo-1576092762791-dd9e2220abd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80)
     
+    
   }
  
-  
   /*Maakt een vak aan in de achtergrond van het beeld*/
   article {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative; 
+    flex-direction: column; /*Zorgt ervoor dat flexibele objecten in het article als een kolom worden geplaatst, elementen kunnen naast elkaar komen te staan als daar ruimte voor is.*/
+    align-items: center; /*Deze items binnen het article gaan gecentreerd staan in het canvas*/
     justify-content: flex-end;
     width: 50vw;
     max-width: 25em;
@@ -35,28 +34,27 @@
 /*geeft een stijl met alle tekst met de waarde 'header'*/
   header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
-    gap: 2.5em;
-    text-align: center;
+    justify-content: center /*Zorgt dat de elementen in deze sectie gecentreerd in beeld komen*/
+    gap: 2.5em; /*Zorgt dat de elementen tussen elkaar een kleine ruimte hebben*/
+    text-align: center;/*de tekst word in het midden gecentreerd in plaats van standaard links*/
 
   }
 
   
-  h2 {
+  h1 {
     font-size: 1em;
     color: rgb(255, 255, 255);
     margin: 0%;
     background-color: rgb(41, 76, 39);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.05em; /*ruimte tussen de letters*/
     width: 110%;
   }
   
 /*geeft een stijl met alle tekst met de waarde 'h1'*/
-  h1 {
+  h2 {
     color: rgb(0, 0, 0);
-    text-transform: uppercase;
+    text-transform: uppercase; /*zorgt dat de zinnen alleen in kapitalen zijn*/
     margin: 0%;
     font-size: 3em;
     font-family: "Nanum Pen Script", sans-serif;
